@@ -1,10 +1,9 @@
 #include <iostream>
 #include <chrono>
 #include <iomanip>
+#include <omp.h>  
 #include "matrix_operations.h"
 
-#include <iostream>
-#include <omp.h>  
 using namespace std;
 using namespace std::chrono;
 
